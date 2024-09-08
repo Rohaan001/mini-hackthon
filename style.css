@@ -1,0 +1,204 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    text-decoration: none;
+    list-style: none;
+}
+.navbar{
+    text-align: center;
+    align-items: center;
+}
+
+.links{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+}
+li a {
+    text-decoration: none;
+    color: black;
+}
+.hero-section{
+    display: flex;
+    justify-content: center;
+    margin-top: 20%;
+}
+.sec_01{
+    display: flex;
+    align-items: center;
+}
+
+.sec_01 h1 {
+    font-weight: 900;
+    font-size: 4rem;
+}
+.sec_01 p {
+    font-size: 1.5rem;
+}
+.sec_01 img{
+    /* width: 100rem; */
+}
+
+.sec_01 .btn_01{
+    padding: 10px 100px;
+    margin-top: 10px;
+}
+
+.sec_01 .div_1{
+    margin: 50px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    
+}
+.services{
+    display: flex;
+    /* justify-content: center; */
+    /* gap: 30px; */
+    text-align: center;
+    align-items: center;
+    margin-top: 2%;
+    margin-left:18%;
+    
+}
+.services h1 {
+    margin-right: 140px;
+    background: #B9FF66;
+    padding: 10px 15px
+    ;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.services p 
+{
+    font-size: 18px;
+    
+   
+    
+}
+@media (max-width: 768px) {
+    .links {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .sec_01 h1 {
+        font-size: 2.5rem;
+    }
+    .div_2 {
+        width: 100px;
+        height: auto;
+    }
+    .sec_01 p {
+        font-size: 1.2rem;
+    }
+    
+    .sec_01 .btn_01 {
+        padding: 10px 50px;
+    }
+
+    .logo {
+        flex-direction: column;
+        gap: 20px;
+        size: 10px;
+    }
+    
+    .services {
+        margin-left: 0;
+    }
+}
+
+/* Mobile screens */
+@media (max-width: 480px) {
+    .sec_01 h1 {
+        font-size: 1.8rem;
+    }
+    
+    .sec_01 p {
+        font-size: 1rem;
+    }
+    .div_2  img{
+
+        width: 200px;
+    }
+    .sec_01 .btn_01 {
+        padding: 10px 20px;
+    }
+    .logo {
+        width: 70px;
+    }
+    .services {
+        display: flex;
+    }
+    .services h1 {
+        font-size: 1.5rem;
+        padding: 5px 10px;
+    }
+    
+    .services p {
+        font-size: 16px;
+    }
+}
+.all-box{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    margin-top: 5%;
+}
+.box1{
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 5px;
+    
+    
+
+}
+.links1{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.links2{
+    display: flex;
+    justify-content: center;
+}
+.links1 h1{
+    background: #B9FF66;
+    padding: 10px 10px;
+    border: 5px;
+
+    
+}
+.links2{
+    background-color: #B9FF66;
+}
+.services-2{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-top: 2%;
+    margin-left: 18%;
+    
+  
+}
+.services-2 h1 {
+    margin-right: 140px;
+    background: #B9FF66;
+    padding: 10px;
+    ;
+    border-radius: 3px;
+    cursor: pointer;
+    
+}
+.services-2 p {
+    
+}
+
